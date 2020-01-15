@@ -1,3 +1,5 @@
+CI tester
+
 # Open MPI Continuous Integration (CI) Services
 ## Mellanox Open MPI CI
 [![Build Status](https://dev.azure.com/mlnx-swx/mellanox-ompi-ci-project/_apis/build/status/mellanox-ompi-ci-pipeline?branchName=master)](https://dev.azure.com/mlnx-swx/mellanox-ompi-ci-project/_build/latest?definitionId=6&branchName=master)
