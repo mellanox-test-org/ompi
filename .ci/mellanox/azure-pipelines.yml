@@ -9,7 +9,9 @@ pr:
 
 pool:
   name: Default
-  demands: AGENT_CI_CAPABILITY -equals ompi
+  demands:
+  - AGENT_CI_TARGET -equals ompi
+  - MLNX_IB_DEVICE -equals yes
 
 variables:
   # TODO: change to the main repo and master branch
