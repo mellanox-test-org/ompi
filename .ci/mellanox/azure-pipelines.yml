@@ -6,12 +6,12 @@ pr:
 pool:
   name: Default
   demands:
-  - AGENT_CI_TARGET -equals ompi
+  - AGENT_CI_TARGET -equals ompi_debug
   - MLNX_IB_DEVICE -equals yes
 
 variables:
   ompi_jenkins_scripts_git_repo_url: https://github.com/mellanox-hpc/jenkins_scripts.git
-  ompi_jenkins_scripts_git_branch: master
+  ompi_jenkins_scripts_git_branch: artemry-mlnx/prrte_test_update
   # Enable debug information, supported values: true, false
   debug: true
 
