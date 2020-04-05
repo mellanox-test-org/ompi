@@ -6,7 +6,7 @@ pr:
 pool:
   name: Default
   demands:
-  - AGENT_CI_TARGET -equals ompi
+  - AGENT_CI_TARGET -equals ompi_debug
   - MLNX_IB_DEVICE -equals yes
 
 variables:
